@@ -1,6 +1,6 @@
 # JavaScript
 
-//String 
+>## String 
 let string = "Hello";
 console.log(string);
 "Hello"
