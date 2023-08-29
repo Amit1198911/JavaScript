@@ -1,9 +1,11 @@
 # JavaScript
 
->## String 
+>## String
+```
 let string = "Hello";
 console.log(string);
 "Hello"
+```
 
 let welcome = "welcome";
 let concat = string + welcome;
