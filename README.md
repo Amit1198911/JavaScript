@@ -1,6 +1,6 @@
 # JavaScript
 
->## String
+>## `String`
 ```
 let string = "Hello";
 console.log(string);
@@ -14,34 +14,34 @@ console.log(concat);
 //Hello welcome
 ```
 
-###concatenate with numbers
+###`concatenate with numbers`
 ```
 let st = "string";
 console.log(st+100);
 //string100
 ```
 
-###string to number conversion
+###`string to number conversion`
 ```
 let num = "156";
 console.log(Number(num));
 //156
 ```
 
-###number to string
+###`number to string`
 ```
 let num2 = 156;
 console.log(num2.toString());
 //156
 ```
 
-###template literal
+###`template literal`
 ```
 console.log(`${string + welcome} Anmol ${num}`);
 //Hellowelcome Anmol 156
 ```
 
-###Important methods in string
+###`Important methods in string`
 ```
 var str = "Arpit";
 console.log(str.length);
