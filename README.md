@@ -4,56 +4,71 @@
 ```
 let string = "Hello";
 console.log(string);
-"Hello"
+//"Hello"
 ```
 
+```
 let welcome = "welcome";
 let concat = string + welcome;
 console.log(concat);
-Hello welcome
+//Hello welcome
+```
 
-//concatenate with numbers
+###concatenate with numbers
+```
 let st = "string";
 console.log(st+100);
-string100
+//string100
+```
 
-//string to number conversion
+###string to number conversion
+```
 let num = "156";
 console.log(Number(num));
-156
+//156
+```
 
-//number to string
+###number to string
+```
 let num2 = 156;
 console.log(num2.toString());
-156
+//156
+```
 
-//template literal
+###template literal
+```
 console.log(`${string + welcome} Anmol ${num}`);
-Hellowelcome Anmol 156
+//Hellowelcome Anmol 156
+```
 
-//Important methods in string
+###Important methods in string
+```
 var str = "Arpit";
 console.log(str.length);
-5
-
+//5
+```
+```
 var fav = "Game of Thrones";
 console.log(fav[0]);
-G
+//G
+
 
 console.log(fav[fav.length-1]);
-s
+//s
 
 console.log(fav.indexOf("of"));
-5
+//5
 
 console.log(fav.slice(5,7));
-of
-
+//of
+```
+```
 var srk = "my name is khan";
 console.log(srk.toUpperCase());
-MY NAME IS KHAN
+//MY NAME IS KHAN
 console.log(srk.toLowerCase());
-my name is khan
+//my name is khan
+```
 
 
 
