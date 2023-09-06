@@ -103,4 +103,32 @@ let speedB = 10;
 // Greater than or equal to (>=)
 let weightA = 50;
 let weightB = 50;
-const result = weightA >= weightB;
+// const result = weightA >= weightB;
+
+// !  Logical Operator
+
+// logical and &&
+
+let sunny = true;
+let wram = true;
+let gotopark = sunny && wram;
+
+
+// logical or (||)
+let israiny = false;
+let issnowy = false;
+let result = israiny || issnowy;
+
+
+// ! String Operator  (+)
+
+let greeting = "Hello";
+let firstname = "Amit";
+let msg = greeting + firstname;
+
+// (+=)
+let sentence = "I love ";
+sentence+="javascript";
+
+let value = "10" + 10;
+
